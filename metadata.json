@@ -1,0 +1,6 @@
+{
+  "name": "Hibet Allah Messahel Portfolio",
+  "description": "Personal portfolio of Hibet Allah Messahel, an AI & Machine Learning student.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

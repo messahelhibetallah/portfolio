@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-black: #1a1a1a;
+  --color-brand-white: #fdfcfb;
+  --color-brand-gray-50: #f9f8f6;
+  --color-brand-gray-100: #efeeea;
+  --color-brand-gray-200: #e2e1dc;
+  --color-brand-gray-400: #9a9890;
+  --color-brand-gray-600: #5c5b56;
+  --color-brand-gray-800: #2c2c2a;
+  --color-brand-accent: #1a6b4a;
+  --color-brand-accent-light: #e8f4ef;
+  --color-brand-accent-mid: #2d9b6e;
+  --color-brand-danger: #c0392b;
+  --color-brand-danger-light: #fdf0ef;
+  --color-brand-warning: #d97706;
+  --color-brand-warning-light: #fef3c7;
+}
+
+:root {
+  --black: #1a1a1a;
+  --white: #fdfcfb;
+  --gray-50: #f9f8f6;
+  --gray-100: #efeeea;
+  --gray-200: #e2e1dc;
+  --gray-400: #9a9890;
+  --gray-600: #5c5b56;
+  --gray-800: #2c2c2a;
+  --accent: #1a1a1a; /* editorial default is sharp high-contrast black/charcoal */
+  --accent-light: #efeeea;
+  --accent-mid: #5c5b56;
+  --green-accent: #1a6b4a;
+  --green-accent-light: #e8f4ef;
+  --danger: #c0392b;
+  --danger-light: #fdf0ef;
+  --warning: #d97706;
+  --warning-light: #fef3c7;
+  --radius: 0px; /* sharp editorial corners */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: #fdfcfb;
+  color: #1a1a1a;
+}
